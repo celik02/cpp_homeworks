@@ -1,3 +1,5 @@
+// emrullah çelik -- cpp howework
+
 #include <iostream>
 #include "baklava_generator.hpp"
 #include <string>
@@ -13,6 +15,8 @@ int main(){
 
  
     baklava_generator yeni_siparis;
+
+
     cout <<"Lütfen dilim_boyutu dilim_sayısı ve neyli olacağını giriniz:" << endl;
     cout << " dilim boyutu pozitif tek bir sayı olmalıdır: ";
 

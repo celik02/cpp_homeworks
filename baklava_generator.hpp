@@ -2,6 +2,8 @@
 #define BAKLAVA_GENERATOR
 #include <string>
 
+
+//class signature
 class baklava_generator  
 {
 	private:

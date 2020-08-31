@@ -19,7 +19,7 @@ baklava_generator::~baklava_generator()
 
 // Istenilen baklava ekrana yazdirilir.
 void baklava_generator::print_to_screen(){
-
+//gerekli değişkenler
     int k = sqrt(dilim_sayisi);
     int kac_nokta_ust_sinir = k + 1;
     int kac_nokta = 0;
@@ -32,10 +32,8 @@ void baklava_generator::print_to_screen(){
 
     int satir_arasi = (dilim_boyutu + 1)/2;
 
-
+// bu for döngüsü içinde şekil çiziliyor.
     for(int i = koseden; i>0; i--){
-
-
 
 
         if (kac_nokta < kac_nokta_ust_sinir && flag)
@@ -79,15 +77,9 @@ void baklava_generator::print_to_screen(){
             
         }
         
-
-         
-        
-           
-        
+    
     }
-    
-    
-
+        
 }
 
 // dilim sayısını herhangi bir dogal sayının karesi olmalı
@@ -95,11 +87,12 @@ void baklava_generator::kac_dilim(int a){
     dilim_sayisi = a;
 }
 
-
+// dilim boyutu tek sayı olmalı
 void baklava_generator::ne_kadar_buyuk(int b){
     dilim_boyutu = b;
 }
 
+//hangi karakter ile çizilmeli
 void baklava_generator::neyli(char c){
     ana_madde = c;
 }
